@@ -1,14 +1,14 @@
 import React from 'react'
-import {Login} from './Components/login/Login';
-//import Form from './Components/Form/form';
+import Form from './Components/Form/form'
+import Login from './Components/login/login'
 
 
-function App(){
-  return(
-  <>
-  <div><Login/></div>  
-
-  </>
+function App() {
+  return (
+    <>
+      <Login />
+      <Form />
+    </>
   )
 }
 
